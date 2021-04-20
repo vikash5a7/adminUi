@@ -1,0 +1,35 @@
+@import '~src/scss/variables';
+// .bg-color{
+//     background-color: $mysec;
+//     color: $white;
+//     text-emphasis-color: $white;
+// }
+th.mat-header-cell {
+    color: $white;
+    background-color: black;
+  }
+  td.mat-cell{
+    color: $white;
+    background-color: $mysec;
+  }
+  mat-paginator{
+    color: $white;
+    background-color: $mysec;
+  }
+  ::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: $white !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: $white !important;
+  } 
+  
+  ::ng-deep.mat-form-field-ripple {
+   /*change color of underline when focused*/
+   background-color: $white !important;;
+  }
+  input{
+    width: 300px;
+  }

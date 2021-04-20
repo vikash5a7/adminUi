@@ -1,0 +1,7 @@
+@import '~src/scss/variables';
+
+@media screen and (min-height: 700px) {
+  :host {
+    height: 100vh;
+  }
+}

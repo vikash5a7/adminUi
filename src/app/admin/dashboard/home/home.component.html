@@ -1,0 +1,20 @@
+
+  <div fxLayout="column" class="pt10">
+      <app-stat [bgClass]="'dark'"></app-stat>
+    <div fxLayout="row wrap" fxLayoutAlign="stretch" fxLayoutGap.gt-sm="1rem">
+      <div fxFlex fxFlex.lt-md="100" class="pt10">
+        <app-table></app-table></div>
+      <div fxFlex fxFlex.lt-md="100" fxLayout="row wrap">
+        <div fxFlex="90" fxLayout="row wrap" fxLayoutGap.gt-xs="1rem">
+          <div class="pt10" fxFlex fxFlex.xs="100">
+            <app-pie-chart></app-pie-chart>
+          </div>
+        </div>
+        <div fxFlex="90" fxLayout="row wrap" fxLayoutGap.gt-xs="1rem">
+          <div class="pt10" fxFlex fxFlex.xs="100">
+           <app-first-chart></app-first-chart>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

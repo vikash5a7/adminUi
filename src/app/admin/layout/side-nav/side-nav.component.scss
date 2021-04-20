@@ -1,0 +1,11 @@
+@import '~src/scss/variables';
+.mat-nav-list {
+  width: 100%;
+  a {
+      .mat-icon {
+          margin-right: 15px;
+          color: $white;
+      }
+      display: block;
+  }
+}

@@ -1,0 +1,7 @@
+<mat-card [ngClass]="bgClass " class="my-class">
+  <mat-card-header fxLayout.xs="column" fxLayoutAlign="center center">
+    <mat-card-title class="text-center">Bill Managment</mat-card-title>
+    <mat-card-subtitle class="text-center"><h2>{{name | uppercase}}</h2></mat-card-subtitle>
+    <mat-card-subtitle class="text-center">Time: {{time | date:'medium'}}</mat-card-subtitle>
+  </mat-card-header>
+</mat-card>
